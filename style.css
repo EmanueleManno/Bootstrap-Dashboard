@@ -1,0 +1,78 @@
+/*HEADER*/
+#main-header {
+    height: 60px;
+    background-color: white;
+}
+
+#main-search-bar {
+    background-color: rgb(229,229,229);
+    color: darkgray;
+}
+
+.bell-color {
+    color: rgb(255,143,0);
+}
+
+/*MAIN*/
+main {
+    height: calc(100vh - 60px);
+}
+
+.badge-color {
+    background-color: rgb(22,91,186);
+}
+
+.avatar-img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.small-size {
+    font-size: 13px;
+}
+
+/*SIDEBAR*/
+#sidebar {
+    background-image: url(./img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(5,30,52);
+    flex: 0 0 150px;
+}
+
+/*SEZIONE BLU SOTTO L'HEADER*/
+#student-section {
+    background-color: rgb(27,114,232);
+}
+
+#big-plus {
+    font-size: 30px;
+}
+
+/*HOVER SIDEBAR*/
+.navbar-top li {
+    cursor: pointer;
+}
+
+.navbar-bottom > * {
+    cursor: pointer;
+}
+
+.navbar-top li:hover {
+    background-color: grey;
+}
+
+.navbar-bottom:hover {
+    background-color: grey;
+}
+
+/*HOVER PROSSIME CLASSI*/
+.table-hover tr:hover:not(.no-hover) {
+    background-color: lightgray;
+}
+
+/*DROPDOWN MENU*/
+.dropdown-menu {
+    --bs-dropdown-min-width: 70rem;
+    --bs-dropdown-min-height: 70rem;
+}
